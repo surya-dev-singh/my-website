@@ -1,0 +1,147 @@
+.nav-brand{
+    font-family:ubuntu;
+    font-size: 120%;
+    padding-left: 2%;
+    color: aquamarine;
+}
+
+.nav-brand:hover{
+    color:aqua;
+}
+.container-fluid{
+    padding-top:5%;
+}
+.fa-user-plus{
+    padding-top: 12px;
+    padding-left: 5px;
+}
+.fa-sign-in{
+    padding-top: 12px;
+    padding-left: 5px;
+}
+.container-fluid h1{
+    margin: 12%;
+    margin-bottom: unset;
+    /* font-family: 'Montserrat Subrayada', sans-serif; */
+    font-family: 'Reggae One', cursive;
+    text-align: center;
+    line-height:150%;
+    color: hsl(0, 81%, 29%);
+}
+.h6{
+    margin-left:65%;
+}
+/* #b1{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+#b2{
+    margin-left: 10%;
+    margin-top:5%;
+} */
+.hr1{
+    border-top: darkslategray 5px dotted;
+    width: 4%;
+    margin-top: 9%;
+}
+
+.container-fluid .subtitle{
+    margin-top: 5%;
+    text-align: center;
+    font-family: ubuntu;
+    font-weight: bold;
+    color: hsl(0, 81%, 29%);
+}
+ 
+.fa-5x{
+    margin-top: 10%;
+    margin-left: 42%;
+}
+.fa-check-circle{
+    color:green;
+}
+.fa-check-circle:hover{
+    transform: scale(1.05);
+}
+.fa-gratipay{
+    color: red;
+}
+.fa-gratipay:hover{
+    transform:scale(1.05)
+}
+.fa-dot-circle-o{
+    color: teal;
+}
+.fa-dot-circle-o:hover{
+    transform: scale(1.05);
+}
+
+.easy{
+    width: 50%;
+    margin-left:25%;
+    text-align: center;
+    padding-bottom: unset;
+}
+
+.easy h3{
+    margin-top: 5%;
+}
+.easy h3:hover{
+    color:hsl(0, 81%, 29%);
+}
+.easy p{
+    font-family:ubuntu;
+    font-size: 130%;
+    color: #8f8f8f;
+}
+.easy p:hover{
+    color: black;
+}
+
+.hr2{
+    border-top: darkslategray 5px dotted;
+    width: 4%;
+    margin-top: 4%;
+    padding-bottom: unset;
+}
+.carousel-item{
+    padding:1% 45%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-right: 50%;
+}
+
+.laptop{
+    transform: scale(2.5);
+    margin:10%;
+}
+.carousel-control-prev-icon{
+    background-color:hsl(0, 81%, 29%);
+}
+.carousel-control-next-icon{
+    background-color:hsl(0, 81%, 29%);
+}
+.card{
+    margin-top: 10%;
+}
+@media (max-width:1028px){
+    .carousel-inner{
+        transform: scale(2);
+    }
+    .easy .fa-5x{
+        margin-left: 30%;
+    }
+    .easy{
+        width: 70%;
+        margin-left:16%;
+    }
+}
+.footer{
+    margin-top:20%;
+    height: 15rem;
+    text-align: center;
+    padding-top: 7%;
+}
+.fa-2x{
+    margin:2.3% 0.5%;
+}
